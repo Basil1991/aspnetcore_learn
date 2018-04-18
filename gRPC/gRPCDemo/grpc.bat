@@ -1,0 +1,1 @@
+packages\grpc.tools\1.10.0\tools\windows_x86\protoc -I . --csharp_out . --grpc_out . --plugin=protoc-gen-grpc=packages\grpc.tools\1.10.0\tools\windows_x86\grpc_csharp_plugin.exe helloworld.proto
